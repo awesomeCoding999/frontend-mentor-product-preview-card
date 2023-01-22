@@ -18,6 +18,15 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  background-color: var(--cream);
+}
+
+.product-card {
+  height: 611px;
+  width: 343px;
+  margin: 28px 16px;
+  background: var(--white);
+  border-radius: 10px;
 }
 
 /*
