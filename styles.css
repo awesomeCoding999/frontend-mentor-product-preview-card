@@ -108,3 +108,32 @@ body {
 footer {
   text-align: center;
 }
+
+/*laptop sizes and larger*/
+@media (min-width: 1024px) {
+  .product-card {
+    display: flex;
+    width: 650px;
+    height: 450px;
+    margin-top: 175px;
+  }
+
+  .product-img {
+    width: 300px;
+    height: 450px;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .product-content-container {
+    margin-top: 32px;
+  }
+  .perfume-title {
+    width: 236px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+  }
+
+  .perfume-description {
+    width: 273px;
+  }
+}
