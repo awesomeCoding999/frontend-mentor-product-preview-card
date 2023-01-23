@@ -33,6 +33,7 @@ body {
   width: 343px;
   height: 240px;
   margin-bottom: 24px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .product-content-container {
@@ -53,6 +54,7 @@ body {
 }
 
 .perfume-title {
+  line-height: 32px;
   margin-top: 12px;
   margin-bottom: 16px;
 }
@@ -96,6 +98,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .cart-icon {
