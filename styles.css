@@ -22,7 +22,7 @@ body {
 }
 
 .product-card {
-  height: 611px;
+  height: 640px;
   width: 343px;
   margin: 28px 16px;
   background: var(--white);
@@ -32,8 +32,76 @@ body {
 .product-img {
   width: 343px;
   height: 240px;
+  margin-bottom: 24px;
 }
 
-/*
-font-family: 'Fraunces', serif;
-*/
+.product-content-container {
+  margin-left: 24px;
+}
+
+.perfume-tagline {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--dark-grayish-blue);
+  letter-spacing: 5px;
+}
+
+.perfume-title,
+.sales-price {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+
+.perfume-title {
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.perfume-description {
+  margin-bottom: 24px;
+  color: var(--dark-grayish-blue);
+  line-height: 23px;
+  font-size: 0.875rem;
+  width: 295px;
+}
+
+.price-container {
+  position: relative;
+}
+
+.sales-price {
+  color: var(--dark-cyan);
+  font-size: 2rem;
+  margin-right: 19px;
+}
+
+.retail-price {
+  color: var(--dark-grayish-blue);
+  font-size: 0.813rem;
+  text-decoration: line-through;
+  position: absolute;
+  top: 10px;
+}
+
+.cart-btn {
+  background: var(--dark-cyan);
+  border: none;
+  border-radius: 8px;
+  width: 295px;
+  height: 48px;
+  margin-top: 20px;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-icon {
+  margin-right: 12px;
+}
+
+footer {
+  text-align: center;
+}
