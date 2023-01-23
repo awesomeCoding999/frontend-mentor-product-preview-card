@@ -24,7 +24,7 @@ body {
 .product-card {
   height: 640px;
   width: 343px;
-  margin: 28px 16px;
+  margin: 28px auto;
   background: var(--white);
   border-radius: 10px;
 }
